@@ -26,15 +26,6 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="26dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonLogin"
-        android:layout_marginBottom="11dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"/>
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,26 +45,35 @@
         app:srcCompat="@drawable/logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageView2"/>
+        android:id="@+id/imageViewLogo"/>
 
     <TextView
         android:text="1-86-MobilMED"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
+        android:layout_below="@+id/imageViewLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
-        android:id="@+id/textView"
+        android:id="@+id/textViewPhone"
         android:textAppearance="@android:style/TextAppearance.Material.Headline"/>
 
     <TextView
         android:text="ETA: 12:31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textViewPhone"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
-        android:id="@+id/textView2"
+        android:id="@+id/textViewETA"
         android:textSize="36sp"/>
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/buttonSignin"/>
 
 </RelativeLayout>

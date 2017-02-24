@@ -17,23 +17,23 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/button"/>
+        android:id="@+id/buttonPatient"/>
 
     <Button
         android:text="Symptoms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/buttonPatient"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
-        android:id="@+id/button2"/>
+        android:id="@+id/buttonVitals"/>
 
     <Button
         android:text="Video Conference"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/buttonVitals"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:id="@+id/button3"/>
+        android:id="@+id/buttonVideo"/>
 </RelativeLayout>
